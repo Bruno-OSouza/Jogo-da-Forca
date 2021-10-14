@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <title>Jogo da forca</title>
+</head>
+<body>
+  <div class="container">
+    <h1 class="text-center">Jogo da Forca</h1>
+    <div class="float-right">Suposições erradas: <span id="mistakes">0</span> de <span id="maxWrong"></span></div>
+    <div class="text-center">
+      <img id="hangmanPic"  src="./images/0.png" alt="forca">
+      <p>Adivinhe qual é a fruta : </p>
+      <p id="wordSpotlight">A palavra a ser adivinhada aparece aqui</p>
+      <div id="keyboard"></div>
+      <button class="btn btn-info" onclick="reset()">Reset</button>
+    </div>
+  </div>
+  <script src="./jogodaforca.js"></script>
+</body>
+</html>

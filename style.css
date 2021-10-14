@@ -1,0 +1,7 @@
+#hangmanPic {
+  background-image: url("images/0.png");
+  position: relative;
+  margin: 10px;
+  
+  z-index: 1;
+}
